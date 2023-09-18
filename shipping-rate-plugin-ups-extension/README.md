@@ -41,43 +41,28 @@ und die Versandartenverknüpfung.
 1. Öffnen Sie den Admin-Bereich Ihres JTL Shops.
 2. Navigieren Sie zu `"Plugins" > "Installierte Plugins" > "Miroria Shipping Rates UPS extension"`.
 
-### Allgemeine Konfiguration
+### UPS Konfiguration
 
-Hier können Sie allgemeine Plugin-Konfigurationen vornehmen.
+Hier können Sie die UPS-Nutzer Konfigurationen vornehmen.
 
 ![UPS Nutzerkonfiguration](docu/bilder/Plugin_Konfiguration_UPS_Nutzerkonfiguration.png)
 
-1. `Ländercode`:
-   Der [ISO-Ländercode](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) der
-   Absenderadresse
-2. `Postleitzahl`: Die PLZ der Absenderadresse
-3. `Stadt`: Der Ort der Absenderadresse
-4. `Straße`: Die Straße der Absenderadresse
+Um die UPS-Schnittstelle zu Nutzen benötigen Sie einen UPS-Account.
+[Hier](https://developer.ups.com/get-started?loc=en_US) finden Sie die notwendigen Infos.<br>
+Gerne helfen wir Ihnen bei der Einrichtung Ihres Accounts. Nutzen Sie dafür den Einrichtungsservice, welchen sie im JTL-Extension Store zum Plugin dazubuchen können.
+
+1. `Paket Rechnungstyp`: Wählen Sie aus, ob Sie die Rechnung dem Paket beilegen.
+2. `Kundennummer`: Sie finden die Kundennummer unter `Home > Profile > Accounts and Payment Options > Number`
+3. `Client Id`: Für die Client Id müssen Sie im [UPS-Portal](https://developer.ups.com/get-started?loc=en_US) eine "App" angelegt haben.
+4. `Client Secret`: Für das Client Secret müssen Sie im [UPS-Portal](https://developer.ups.com/get-started?loc=en_US) eine "App" angelegt haben.
 
 ### Versandartenverknüpfung
-
-Hier können Sie Versandarten aus dem Shop mit den Versanddienstleistern verknüpfen.
-
+UPS-Versandarten können Sie über die Plugin-Einstellungen des Basis-Plugins verknüpfen.
 ![Versandartenverknüpfung](docu/bilder/Plugin_Konfiguration_UPS_Versandartenverknüpfung_Einstellungen.png)
 
-1. `Shop Versandart`: Auswahl an im Shop unter `"Administration" > "Versand" > "Versandarten"` definierten Versandarten
-2. `Dienstleister`: Auswahl an verfügbaren Dienstleistern. Fügen Sie weitere Dienstleister durch unsere [Extensions]()
-   hinzu.
-   Im Basis-Plugin gibt es die Option eine Versandart `Zusatzgebühr` zu verwenden. Auf die verknüpfte Versandart wird
-   dann die konfigurierte `Zusatzgebühr` gerechnet.
-   Bisher verfügbare Extensions:
-    1. [UPS]()
-
-   In Planung:
-    1. Shipmonk
-    2. DHL
-    3. FedEx
-3. `Versandart`: Vom Dienstleister bereitgestellte Versandarten.
-4. `Verpackungsart`: Vom Dienstleister bereitgestellte Verpackungsarten.
-5. `Versandart ausblenden wenn die Rate nicht verfügbar ist`: Soll die Versandart im Warenkorb ausgeblendet werden, wenn
-   die Rate nicht vom Dienstleister bezogen werden konnte
-6. `Verknüpfung anlegen`: Anlegen und freischalten der Verknüpfung.
-7. `Versandverknüpfungen`: Hier können Sie bereits verknüpfte Versandarten sehen und löschen.
+1. `Dienstleister`: Wählen Sie hier `UPS` aus
+2. `Versandart`: Auswahl der für UPS verfügbaren Versandarten
+3. `Verpackungsart`: Auswahl der für UPS verfügbaren Verpackungsarten.
 
 ## Bedienung des Plugins im Shop
 
