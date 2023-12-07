@@ -16,6 +16,8 @@ Diese Anleitung führt Sie durch den Installationsprozess des Plugins "Versandko
 2. Navigieren Sie zu `"Plugins" > "Plugin Manager"`.
 3. Suchen Sie nach dem erworbenen Plugin in der Plugin-Liste.
 4. Klicken Sie auf "Installieren", um den Installationsprozess zu starten.
+5. Aktivieren Sie die Shop-Einstellung Nr 13 und 17 (Bundesland abfragen) um möglichst genauere Versandkosten und Lieferzeiten zu erhalten
+![Einstellungen](docu/bilder/Bundesland_abfragen_einstellung.PNG)
 
 ### Schritt 3: Überprüfung
 
@@ -42,16 +44,23 @@ Hier können Sie allgemeine Plugin-Konfigurationen vornehmen.
 
 ![Allgemeine Konfiguration](docu/bilder/Plugin_Konfiguration_Allgemeine_Konfiguration.png)
 
-`Absenderadresse`: Bei der Installation des Plugins wird sie auf die im Shop hinterlegte Firmenadresse gesetzt.
-1. `Ländercode`: Der [ISO-Ländercode](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) der Absenderadresse
-2. `Postleitzahl`: Die PLZ der Absenderadresse
-3. `Stadt`: Der Ort der Absenderadresse
-4. `Straße`: Die Straße der Absenderadresse
+`API-Konfiguration`:
 
-`Sonstiges`
-5. `Versandpreise runden`: Versandpreise können auf die erste Nachkommastelle gerundet werden. Wird beispielsweise ein Versandpreis von 5.76€ ermittelt wird dieser auf 5.80€ gerundet. 
-6. `Zeitüberschreitung`: Hier kann eine Zeitüberschreitung definiert werden. Anfragen gegen die Versanddienstleister werden nach Überschreitung abgebrochen und es werden als Fallback-Preis und Lieferzeit die in der Versandart definierten Werte verwendet.
-7. `Zusatzgebühr`: Sie können außerdem einen Zusatzgebühren-Prozentsatz einstellen. Dieser wird auf die Versandkosten gerechnet.
+1. `API-Key`: Beantragen Sie [hier](https://www.miroria.de/jtl-versandkosten-und-lieferzeiten/#zugang-beantragen) einen API-Key
+
+`Absenderadresse`: Bei der Installation des Plugins wird sie auf die im Shop hinterlegte Firmenadresse gesetzt.
+
+2. `Zeitzone`: Die Zeitzone in welcher sich Ihr Unternehmen befindet.
+3. `Ländercode`: Der [ISO-Ländercode](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) der Absenderadresse
+4. `Postleitzahl`: Die PLZ der Absenderadresse
+5. `Stadt`: Der Ort der Absenderadresse
+6. `Straße`: Die Straße der Absenderadresse
+
+`Sonstiges`:
+
+7. `Versandpreise runden`: Versandpreise können auf die erste Nachkommastelle gerundet werden. Wird beispielsweise ein Versandpreis von 5.76€ ermittelt wird dieser auf 5.80€ gerundet. 
+8. `Zeitüberschreitung`: Hier kann eine Zeitüberschreitung definiert werden. Anfragen gegen die Versanddienstleister werden nach Überschreitung abgebrochen und es werden als Fallback-Preis und Lieferzeit die in der Versandart definierten Werte verwendet.
+9. `Zusatzgebühr`: Sie können außerdem einen Zusatzgebühren-Prozentsatz einstellen. Dieser wird auf die Versandkosten gerechnet.
 
 
 ### Versandartenverknüpfung
@@ -75,6 +84,11 @@ Im Basis-Plugin gibt es die Option eine Versandart `Zusatzgebühr` zu verwenden.
 6. `Verknüpfung anlegen`: Anlegen und freischalten der Verknüpfung.
 7. `Versandverknüpfungen`: Hier können Sie bereits verknüpfte Versandarten sehen und löschen.
 
+### API Übersicht
+Hier haben Sie einen schnellen Überblick zur Verwendung der verknüpften Versandarten des aktuellen monats.
+
+![API-Übersicht](docu/bilder/API-Übersicht.PNG)
+
 ## Bedienung des Plugins im Shop
 
 1. Nach der Konfiguration wird das Plugin automatisch die Versandkosten und Lieferzeit entsprechend der Einstellungen vom Versanddienstleister beziehen.
@@ -86,7 +100,7 @@ Im Basis-Plugin gibt es die Option eine Versandart `Zusatzgebühr` zu verwenden.
 
 ## Verwendung in Templates
 Das Plugin nimmt Anpassungen am Template "step3_shipping_options.tpl" und "shipping_calculator.tpl" vor.
-Bei Bedarf können Sie weitere Änderungen manuell vornehmen.
+Wenn Sie Anpassungen an den Templates benötigen können Sie uns per `support@miroria.de` kontaktieren und wir melden uns mit einem Angebot zurück.
 
 Herzlichen Glückwunsch! Sie haben erfolgreich das Plugin "Versandkosten und Lieferzeit automatisch beziehen - Basis Plugin" konfiguriert und können es nun im Shop verwenden.
 
