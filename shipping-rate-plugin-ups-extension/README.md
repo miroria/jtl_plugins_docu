@@ -25,7 +25,8 @@ Eine Anleitung finden Sie im Abschnitt [UPS Konfiguration](#ups-konfiguration).
 ### Schritt 3: Überprüfung
 
 1. Navigieren Sie zu den Basis-Plugin-Einstellungen unter `"Plugins" > "Installierte Plugins" > "Miroria Shipping Rates > Versandartenverknüpfung"`.
-2. Prüfen Sie, dass der Dienstleister "UPS" verfügbar ist. 
+2. Prüfen Sie, dass der Dienstleister "UPS" verfügbar ist.
+
 ![UPS-Versandartenverknüpfung](docu/bilder/Plugin_Konfiguration_UPS_Versandartenverknüpfung.png)
 
 Herzlichen Glückwunsch! Sie haben erfolgreich das "Versandkosten und Lieferzeit automatisch beziehen - UPS Erweiterung" in Ihren JTL Shop integriert.
@@ -73,6 +74,7 @@ Konfigurieren Sie den UPS-Nutzer im Plugin.
 
 ### Versandartenverknüpfung
 UPS-Versandarten können Sie über die Plugin-Einstellungen des Basis-Plugins verknüpfen.
+
 ![Versandartenverknüpfung](docu/bilder/Plugin_Konfiguration_UPS_Versandartenverknüpfung_Einstellungen.png)
 
 1. `Dienstleister`: Wählen Sie hier `UPS` aus
