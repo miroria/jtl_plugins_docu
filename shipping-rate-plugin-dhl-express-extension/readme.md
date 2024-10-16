@@ -1,9 +1,5 @@
 # Shipping Rate Plugin DHL-Express Extension
 
-Das Plugin befindet sich aktuell noch in der **Beta-Phase**.
-
-Bei Fragen, Problemen oder Wünschen können Sie sich gerne an support@miroria.de wenden.
-
 ---
 
 ## Installationsanleitung für "Versandkosten und Lieferzeit automatisch beziehen - DHL-Express Erweiterung"
